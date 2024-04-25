@@ -3,9 +3,9 @@ import complexity from '../assets/complexity.jpg';
 export default function NothingSelected({onStartAddTask}) {
  return (
     <div className="mt-2 text-center w-2/3">
-        <img src={complexity} alt="complexity" className='w-96 h-72 object-contain mx-auto'/>
+        <img src={complexity} alt="complexity" className='w-124 h-72 object-contain mx-auto'/>
         
-        <h2 className='text-xl font-bold text-stone-600 my-4'>Stil Thinking...</h2>
+        <h2 className='text-xl font-bold text-stone-600 my-4'>Still Thinking...</h2>
         <p className='text-stone-600 mb-4'>Jump any of your tasks or get started with the first task you think!</p>
        
         <p className='mt-8'>
